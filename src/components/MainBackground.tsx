@@ -1,12 +1,12 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import { getImage } from 'gatsby-plugin-image';
+import { getImage} from 'gatsby-plugin-image';
 import { convertToBgImage } from 'gbimage-bridge';
 import BackgroundImage from 'gatsby-background-image';
-
+import { IMainBackground } from '../interfaces/commonInterfaces';
 
 export default function MainBackground() {
-  const { mainbackground } = useStaticQuery(
+  const { mainbackground }: IMainBackground = useStaticQuery(
     graphql`
       query {
         mainbackground: file(relativePath: { eq: "mainbackground.jpg" }) {
