@@ -1,0 +1,49 @@
+
+[
+    {
+      "id": 1,
+      "title": "Entertainment Blog",
+      "images": ["./images/entertainment-blog-home.png", "./images/entertainment-blog-search.png"],
+      "description": "This is a react project in which we request data to themoviedb api and we display the data in the website. We can navigate and look for information related to movies, tv shows and actors. This project was created using React, Typescript, React Router and Tailwind CSS.",
+      "developmentStack": ["react", "react router", "typescript", "tailwind css" ],
+      "repository": "https://github.com/eduardo-pleitez/entertainment-blog",
+      "website": "https://entertainment-blog.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Eduardo Translations",
+      "images": ["./images/eduardo-translations-home.png"],
+      "description": "The project simulates a real translation page in which we created the sections that a normal page would have. We used an Api for the map added at the bottom of the page. This project was created using HTML, CSS and Javascript.",
+      "developmentStack": ["javascript", "css", "html"],
+      "repository": "https://github.com/eduardo-pleitez/EduardoTranslations",
+      "website": "https://eduardotranslations.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "Huddle Page",
+      "images": ["./images/huddle-page-home.png"],
+      "description": "In this project we use HTML and CSS to implement the design of the website. The website is responsive and the content can be seen on computers and mobile phones perfectly. Project created based on a design provided by FrontEnd Mentor.",
+      "developmentStack": ["html", "css"],
+      "repository": "https://github.com/eduardo-pleitez/huddle-page",
+      "website": "https://huddle-front-end.netlify.app/"
+    },
+    {
+      "id": 4,
+      "title": "Bookmark Landing Page",
+      "images": ["./images/bookmark-page-home.png"],
+      "description": "In this project we create a website based on a design provided by FrontEnd Mentor. This project was created using React and its framework Nextjs, the design was implemented using Sass.",
+      "developmentStack": ["react", "next js", "sass"],
+      "repository": "https://github.com/eduardo-pleitez/Bookmark-Landing-Page",
+      "website": "https://bookmarkwebsite.netlify.app/"
+    },
+    {
+      "id": 5,
+      "title": "Person Information Form",
+      "images": ["./images/person-form-home.png"],
+      "description": "In this project we create a form that request person information. We check if the information provided by the user is valid and show the valid information introduce on the console and a list of errors for the information that is invalid on the form. We implemented a Konami Code to this project where a sequence of keys activates a function that displays a gif on the screen using time out function that shows the gif for five seconds on the screen. The secret code to activate the gif is the word: react (R-E-A-C-T)",
+      "developmentStack": ["javascript", "css", "html"],
+      "repository": "https://github.com/eduardo-pleitez/person-information-form",
+      "website": "https://person-information-form.vercel.app/"
+    }
+]
+
