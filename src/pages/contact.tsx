@@ -12,7 +12,7 @@ const ContactPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <main className='flex justify-center'>
-        <div className='flex sm:flex-row flex-col bg-white lg:px-14 lg:py-14 md:px-10 md:py-10 px-6 py-6 shadow-lg rounded-lg bg-gray-100 text-gray-700 lg:w-8/12 md:w-11/12 w-full'>
+        <div className='flex sm:flex-row flex-col bg-white lg:px-14 lg:py-14 md:px-10 md:py-10 px-6 py-6 shadow-lg rounded-lg text-gray-700 lg:w-8/12 md:w-11/12 w-full'>
           <div className='sm:w-1/2 w-full text-black pb-4'>
             <h1 className='text-4xl mb-8'>Get in touch</h1>
             <div className='sm:ml-6'>

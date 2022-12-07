@@ -9,14 +9,14 @@ const IndexPage: React.FC<PageProps> = () => {
       <main>
         <MainBackground />
         <div className='flex justify-center'>
-          <div className='lg:px-12 px-6 py-6 shadow-lg rounded-lg bg-gray-100 text-gray-700 md:w-9/12 w-full'>
+          <div className='lg:px-12 px-6 py-6 shadow-lg rounded-lg bg-white text-black md:w-9/12 w-full'>
             <div>
               <h2 className='font-semibold text-3xl mb-2'>About</h2>
               <div className='px-4 py-4'>
                 <p>
                   My name is Eduardo Mejia. I&apos;m a front-end developer. The
                   technologies I have used as a front-end developer are HTML,
-                  CSS, Javascript, React and Typescript.I have experience
+                  CSS, Javascript, React and Typescript. I have experience
                   working as a Spanish translator and technical support agent. I
                   love learning something new every day and I am open to explore
                   new areas of knowledge. I am looking for an opportunity to
@@ -42,7 +42,7 @@ const IndexPage: React.FC<PageProps> = () => {
                   <p>NaTakallam | June 2019 - May 2022</p>
                 </div>
                 <div className='ml-6'>
-                  <ul style={{ listStyleType: 'circle' }}>
+                  <ul style={{ listStyleType: 'disc' }}>
                     <li>
                       Translated more than 100,000 words in the areas of
                       education, finance and marketing.
@@ -65,7 +65,7 @@ const IndexPage: React.FC<PageProps> = () => {
                   <p>OneLink | Jan 2017 - Dec 2017</p>
                 </div>
                 <div className='ml-6'>
-                  <ul style={{ listStyleType: 'circle' }}>
+                  <ul style={{ listStyleType: 'disc' }}>
                     <li>
                     Interact with customers to provide information in response to inquiries and requests about products and services.
                     </li>
