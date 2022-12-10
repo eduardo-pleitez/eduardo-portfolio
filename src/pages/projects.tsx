@@ -65,7 +65,7 @@ const ProjectsPage: React.FC<PageProps> = () => {
                         href={project.node.website}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='text-blue-500 underline md:text-xl text-base'
+                        className='text-blue-500 underline md:text-lg text-base'
                       >
                         Project website
                       </a>
