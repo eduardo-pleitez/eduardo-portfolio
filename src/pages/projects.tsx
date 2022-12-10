@@ -3,7 +3,7 @@ import { HeadFC, PageProps, useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import { ProjectsProps } from '../interfaces/commonInterfaces';
 import Image from 'gatsby-image';
-import Tags from '../components/Tags';
+import ProjectsTags from '../components/ProjectsTags';
 
 const ProjectsPage: React.FC<PageProps> = () => {
   const data: ProjectsProps = useStaticQuery(
@@ -49,7 +49,7 @@ const ProjectsPage: React.FC<PageProps> = () => {
                     <h2 className='font-semibold sm:text-xl text-lg lg:mb-4 mb-2'>
                       {project.node.title}
                     </h2>
-                    <Tags tagsdata={project.node.developmentStack} />
+                    <ProjectsTags tagsdata={project.node.developmentStack} />
                     <p className='md:my-3 my-1'>
                       <a
                         href={project.node.repository}
