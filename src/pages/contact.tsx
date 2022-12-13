@@ -37,10 +37,13 @@ const ContactPage: React.FC<PageProps> = () => {
             </div>
           </div>
           <div className='sm:w-1/2 w-full'>
-            <div className='mb-6'>
-              <input
-                type='text'
-                className='block
+            <form action="https://formsubmit.co/f60c24878982c09a54749c9113171ec2" method="POST">
+              <input type="hidden" name="_captcha" value="false" />
+              <div className='mb-6'>
+                <input
+                  type='text'
+                  name='personName'
+                  className='block
             w-full
             px-3
             py-1.5
@@ -54,13 +57,15 @@ const ContactPage: React.FC<PageProps> = () => {
             ease-in-out
             m-0
             focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none'
-                placeholder='Your Name'
-              />
-            </div>
-            <div className='mb-6'>
-              <input
-                type='email'
-                className='block
+                  placeholder='Your Name'
+                  required
+                />
+              </div>
+              <div className='mb-6'>
+                <input
+                  type='email'
+                  name='personEmail'
+                  className='block
             w-full
             px-3
             py-1.5
@@ -74,12 +79,14 @@ const ContactPage: React.FC<PageProps> = () => {
             ease-in-out
             m-0
             focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none'
-                placeholder='Email Address'
-              />
-            </div>
-            <div className='mb-6'>
-              <textarea
-                className='
+                  placeholder='Email Address'
+                  required
+                />
+              </div>
+              <div className='mb-6'>
+                <textarea
+                  name='personMessage'
+                  className='
             block
             w-full
             px-3
@@ -95,13 +102,13 @@ const ContactPage: React.FC<PageProps> = () => {
             m-0
             focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none
           '
-                rows={3}
-                placeholder='Message'
-              ></textarea>
-            </div>
-            <button
-              type='submit'
-              className='
+                  rows={3}
+                  placeholder='Message'
+                ></textarea>
+              </div>
+              <button
+                type='submit'
+                className='
           w-full
           px-6
           py-2.5
@@ -119,9 +126,10 @@ const ContactPage: React.FC<PageProps> = () => {
           transition
           duration-150
           ease-in-out'
-            >
+              >
               Send
-            </button>
+              </button>
+            </form>
           </div>
         </div>
       </main>
