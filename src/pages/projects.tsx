@@ -53,6 +53,7 @@ const ProjectsPage: React.FC<PageProps> = () => {
                     <p className='md:my-3 my-1'>
                       <a
                         href={project.node.repository}
+                        title='Go to the repository'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='text-blue-500 underline md:text-lg text-base'
@@ -63,6 +64,7 @@ const ProjectsPage: React.FC<PageProps> = () => {
                     <p className='md:my-3 my-1'>
                       <a
                         href={project.node.website}
+                        title='Go to the website'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='text-blue-500 underline md:text-lg text-base'
