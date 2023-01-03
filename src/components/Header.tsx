@@ -7,7 +7,7 @@ const Header = () => {
     <nav className='bg-black border-gray-200 px-2 sm:px-4 py-2.5'>
       <div className='container flex flex-wrap justify-between items-center mx-auto'>
         <Link to='/' className='flex items-center'>
-          <span className='self-center md:text-3xl text-lg font-semibold whitespace-nowrap text-white'>
+          <span className='self-center lg:text-3xl text-lg font-semibold whitespace-nowrap text-white'>
             Eduardo Mejia Portfolio
           </span>
         </Link>
@@ -37,14 +37,14 @@ const Header = () => {
         <div
           className={`${
             isExpanded ? 'block' : 'hidden'
-          } w-full md:block md:w-auto md:text-xl text-sm`}
+          } w-full md:block md:w-auto lg:text-xl text-sm`}
           id='navbar-default'
         >
           <ul className='flex flex-col p-4 mt-4 bg-black md:flex-row md:space-x-8 md:mt-0 md:font-medium md:border-0'>
             <li>
               <Link
                 to='/'
-                className='block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0'
+                className='nav-button block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0'
                 aria-current='page'
               >
                 Home
@@ -53,7 +53,7 @@ const Header = () => {
             <li>
               <Link
                 to='/projects'
-                className='block py-2 pr-4 pl-3 text-white rounded md:border-0 md:p-0'
+                className='nav-button block py-2 pr-4 pl-3 text-white rounded md:border-0 md:p-0'
               >
                 Projects
               </Link>
@@ -61,7 +61,7 @@ const Header = () => {
             <li>
               <Link
                 to='/contact'
-                className='block py-2 pr-4 pl-3 text-white rounded md:border-0 md:p-0'
+                className='nav-button block py-2 pr-4 pl-3 text-white rounded md:border-0 md:p-0'
               >
                 Contact me
               </Link>

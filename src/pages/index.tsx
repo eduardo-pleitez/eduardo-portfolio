@@ -49,7 +49,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     </li>
                     <li>
                       Use of CAT tools to streamline the translation, editing
-                      andproofreading process.
+                      and proofreading process.
                     </li>
                     <li>
                       Helping to break down language barriers by translating

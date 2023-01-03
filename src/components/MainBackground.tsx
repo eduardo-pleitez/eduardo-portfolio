@@ -25,10 +25,7 @@ export default function MainBackground() {
   const bgImage = convertToBgImage(image);
   return (
     <BackgroundImage
-      className='p-12 text-center relative overflow-hidden bg-no-repeat bg-cover'
-      style={{
-        height: '450px',
-      }}
+      className='hero-image p-12 text-center relative overflow-hidden bg-no-repeat bg-cover'
       Tag='section'
       {...bgImage}
     >
@@ -38,7 +35,7 @@ export default function MainBackground() {
       >
         <div className='flex justify-center items-center h-full'>
           <div className='text-white'>
-            <h2 className='font-semibold text-4xl mb-4'>
+            <h2 className='font-semibold lg:text-4xl text-3xl mb-4'>
               Hi, I&apos;m Eduardo, a front-end developer.
             </h2>
           </div>

@@ -22,6 +22,19 @@ const config: GatsbyConfig = {
     },
     __key: 'data'
   },
+  {
+    resolve: 'gatsby-omni-font-loader',
+    options: {
+      enableListener: true,
+      preconnect: ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'],
+      web: [
+        {
+          name: 'Oswald, Noto Sans',
+          file: 'https://fonts.googleapis.com/css?family=Oswald|Noto+Sans',
+        },
+      ],
+    },
+  }
   ]
 };
 

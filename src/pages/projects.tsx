@@ -37,7 +37,7 @@ const ProjectsPage: React.FC<PageProps> = () => {
       <div className='flex justify-center'>
         <div className='lg:px-16 md:px-8 px-2 py-6 shadow-lg rounded-lg bg-white md:max-w-full md:w-auto w-full'>
           <div>
-            <h1 className='font-bold lg:text-5xl sm:text-3xl text-xl mt-4 md:mb-8 mb-2 text-center'>
+            <h1 className='font-bold lg:text-5xl text-3xl mt-4 md:mb-8 mb-2 text-center'>
               Projects
             </h1>
           </div>

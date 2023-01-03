@@ -13,6 +13,24 @@ html {
 }
 body {
   background-color: #f0f2f5;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', serif;
   margin-bottom: 70px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+.nav-button:hover{
+  text-decoration: underline white;
+}
+@media (width < 1024px) { 
+  .hero-image{
+    height: 350px;
+  } 
+}
+@media (width >= 1024px) { 
+  .hero-image{
+    height: 450px;
+  } 
 }
