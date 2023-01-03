@@ -35,9 +35,9 @@ export default function MainBackground() {
       >
         <div className='flex justify-center items-center h-full'>
           <div className='text-white'>
-            <h2 className='font-semibold lg:text-4xl text-3xl mb-4'>
+            <h1 className='font-semibold lg:text-5xl sm:text-4xl text-3xl mb-4'>
               Hi, I&apos;m Eduardo, a front-end developer.
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
